@@ -16,7 +16,7 @@ public class SpringjdbcdemoApplication {
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(SpringjdbcdemoApplication.class, args);
 		Student sahil = context.getBean(Student.class);
-		sahil.setRollNo(101);
+		sahil.setRollNo(104);
 		sahil.setName("Sahil");
 		sahil.setMarks(98);
 
